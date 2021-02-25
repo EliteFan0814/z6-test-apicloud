@@ -1,10 +1,10 @@
-<widget id="A6169778903358" version="0.0.1">
+<widget id="A6150613996027" version="0.0.1">
     <name>z-6测试</name>
     <description>z-6测试</description>
     <!-- <author email="developer@apicloud.com" href="http://www.apicloud.com">Developer</author> -->
     <!-- z-6测试 -->
-    <!-- <content src="html/winPageIndex.html"/> -->
-    <content src="https://www.baidu.com"/>
+    <content src="html/winPageIndex.html"/>
+    <!-- <content src="http://192.168.0.136:83/winPageIndex.html"/> -->
     <access origin="*"/>
 
     <preference name="pageBounce" value="false"/>
@@ -48,6 +48,9 @@
     <permission name="hardware"/>
 
     <preference name="useWKWebView" value="true" />
+    <!-- 场景还原 -->
+    <!-- <preference name="urlScheme" value="mlink://" /> -->
+    <!-- <preference name="urlScheme" value="mlink"/> -->
 
     <preference name="appCertificateVerify" value="false"/>
     <preference name="checkSslTrusted" value="false"/>
